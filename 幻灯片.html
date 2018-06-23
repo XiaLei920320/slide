@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .box {
+      width: 300px;
+      height: 160px;
+      margin: 60px auto;
+      border: 3px solid red;
+      box-sizing: content-box;
+      animation: ain 20s infinite ;
+    }
+    
+    @keyframes ain {
+      0% {
+        background: url(image/1.jpg) no-repeat;
+      }
+      25% {
+        background: url(image/2.jpg) no-repeat;
+      }
+      50%{
+        background: url(image/3.jpg) no-repeat;
+      }
+      75% {
+        background: url(image/4.jpg) no-repeat;
+      }
+      100%{
+        background: url(image/5.jpg) no-repeat;
+      }
+    }
+  
+  
+  </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>
